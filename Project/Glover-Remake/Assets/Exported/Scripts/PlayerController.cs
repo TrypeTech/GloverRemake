@@ -47,6 +47,8 @@ public class PlayerController : MonoBehaviour
         cameraT = Camera.main.transform;
         controller = GetComponent<CharacterController>();
         //  animator.SetBool("Aim", false);
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false; 
     }
 
     void Update()
