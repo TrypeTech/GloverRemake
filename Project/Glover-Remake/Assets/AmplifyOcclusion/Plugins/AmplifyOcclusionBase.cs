@@ -597,7 +597,7 @@ public class AmplifyOcclusionBase : MonoBehaviour
 			#if UNITY_EDITOR
 			if( ( m_targetCamera.cameraType == CameraType.SceneView ) &&
 				( ( ( PerPixelNormals == PerPixelNormalSource.GBuffer ) && ( m_targetCamera.orthographic == true ) ) ||
-				  ( PerPixelNormals == PerPixelNormalSource.Camera ) && ( SceneView.lastActiveSceneView.m_SceneLighting == false ) ) )
+				  ( PerPixelNormals == PerPixelNormalSource.Camera ) && ( SceneView.lastActiveSceneView.sceneLighting == false ) ) )
 			{
 				PerPixelNormals = PerPixelNormalSource.None;
 			}
