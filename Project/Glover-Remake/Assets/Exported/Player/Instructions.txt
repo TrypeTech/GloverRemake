@@ -1,0 +1,10 @@
+Create A Player Empty Add Animated Player Object to it
+Add A Empty To the Player and call it pivot
+Attach a Character Controller to the empty and a Player Controller script
+
+Setup Animator blends Forward and Jumping
+
+
+Create a empty  holder for the Camera create another inside of that call it pivot
+then add a camera to the pivot set the cam where you want the player to be
+set the pivot to be the target of the player int eh thtir person cam script
